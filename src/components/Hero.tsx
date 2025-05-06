@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
@@ -13,12 +12,15 @@ const Hero = () => {
               Software Engineer
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight mb-6">
-              Building digital<br />
-              experiences that<br />
+              Building digital
+              <br />
+              experiences that
+              <br />
               <span className="text-blue-600">make an impact</span>
             </h1>
             <p className="text-lg text-slate-600 mb-8 max-w-lg">
-              I craft clean, efficient code to solve complex problems and create intuitive user experiences. Let's build something amazing together.
+              I craft clean, efficient code to solve complex problems and create intuitive user
+              experiences. Let's build something amazing together.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button asChild size="lg" className="group">

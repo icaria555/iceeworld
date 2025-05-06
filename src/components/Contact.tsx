@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -26,40 +25,37 @@ const Contact = () => {
             <h3 className="text-2xl font-semibold mb-6">Send Me a Message</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-slate-700 mb-1">Name</label>
-                <Input 
-                  id="name" 
-                  placeholder="Your name" 
-                  required 
-                />
+                <label htmlFor="name" className="block text-sm font-medium text-slate-700 mb-1">
+                  Name
+                </label>
+                <Input id="name" placeholder="Your name" required />
               </div>
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-slate-700 mb-1">Email</label>
-                <Input 
-                  id="email" 
-                  type="email" 
-                  placeholder="Your email address" 
-                  required 
-                />
+                <label htmlFor="email" className="block text-sm font-medium text-slate-700 mb-1">
+                  Email
+                </label>
+                <Input id="email" type="email" placeholder="Your email address" required />
               </div>
               <div>
-                <label htmlFor="subject" className="block text-sm font-medium text-slate-700 mb-1">Subject</label>
-                <Input 
-                  id="subject" 
-                  placeholder="Subject of your message" 
-                  required 
-                />
+                <label htmlFor="subject" className="block text-sm font-medium text-slate-700 mb-1">
+                  Subject
+                </label>
+                <Input id="subject" placeholder="Subject of your message" required />
               </div>
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-slate-700 mb-1">Message</label>
-                <Textarea 
-                  id="message" 
-                  placeholder="Write your message here..." 
-                  className="min-h-32" 
-                  required 
+                <label htmlFor="message" className="block text-sm font-medium text-slate-700 mb-1">
+                  Message
+                </label>
+                <Textarea
+                  id="message"
+                  placeholder="Write your message here..."
+                  className="min-h-32"
+                  required
                 />
               </div>
-              <Button type="submit" className="w-full">Send Message</Button>
+              <Button type="submit" className="w-full">
+                Send Message
+              </Button>
             </form>
           </div>
 
@@ -73,7 +69,10 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm text-slate-500">Email</p>
-                    <a href="mailto:your.email@example.com" className="text-lg font-medium text-slate-800 hover:text-blue-600">
+                    <a
+                      href="mailto:your.email@example.com"
+                      className="text-lg font-medium text-slate-800 hover:text-blue-600"
+                    >
                       your.email@example.com
                     </a>
                   </div>
@@ -84,7 +83,10 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm text-slate-500">Phone</p>
-                    <a href="tel:+11234567890" className="text-lg font-medium text-slate-800 hover:text-blue-600">
+                    <a
+                      href="tel:+11234567890"
+                      className="text-lg font-medium text-slate-800 hover:text-blue-600"
+                    >
                       +1 (123) 456-7890
                     </a>
                   </div>
@@ -95,17 +97,17 @@ const Contact = () => {
             <div className="bg-white rounded-xl shadow-md p-8">
               <h3 className="text-2xl font-semibold mb-6">Follow Me</h3>
               <div className="flex gap-4">
-                <a 
-                  href="https://github.com/" 
-                  target="_blank" 
+                <a
+                  href="https://github.com/"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="bg-slate-100 hover:bg-slate-200 transition-colors p-4 rounded-full"
                 >
                   <Github className="h-6 w-6 text-slate-700" />
                 </a>
-                <a 
-                  href="https://linkedin.com/" 
-                  target="_blank" 
+                <a
+                  href="https://linkedin.com/"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="bg-slate-100 hover:bg-slate-200 transition-colors p-4 rounded-full"
                 >

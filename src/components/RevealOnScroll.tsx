@@ -1,5 +1,4 @@
-
-import React, { useEffect, useRef, ReactNode } from 'react';
+import React, { useEffect, useRef, ReactNode } from "react";
 
 interface RevealOnScrollProps {
   children: ReactNode;
@@ -14,14 +13,14 @@ const RevealOnScroll: React.FC<RevealOnScrollProps> = ({ children, className = "
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add('active');
+            entry.target.classList.add("active");
             observer.unobserve(entry.target);
           }
         });
       },
       {
         root: null,
-        rootMargin: '0px',
+        rootMargin: "0px",
         threshold: 0.1,
       }
     );
