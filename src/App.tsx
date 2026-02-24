@@ -13,15 +13,15 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </BrowserRouter> */}
-      <div className="flex items-center justify-center min-h-screen">
+      </BrowserRouter>
+      {/* <div className="flex items-center justify-center min-h-screen">
         มาดูไรกัน ยังไม่มีไรให้ดูหรอกคับ 555555
-      </div>
+      </div> */}
     </TooltipProvider>
   </QueryClientProvider>
 );
